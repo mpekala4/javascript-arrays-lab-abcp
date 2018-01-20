@@ -33,7 +33,7 @@ function prependKitten(array, element){
 }
 
 function removeLastKitten(array,index){
-  var lastindexNum = array.length -1
+  var lastindexNum = kittens.length -1
   kittens.slice(lastindexNum)
 }
 
