@@ -26,3 +26,8 @@ function appendKitten(array, element){
   return[...kittens, "luna"]
   appendKitten()
 }
+
+function prependKitten(array, element){
+  return["luna",...kittens]
+  prependKitten()
+}
