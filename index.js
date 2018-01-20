@@ -31,3 +31,12 @@ function prependKitten(array, element){
   return["Arnold",...kittens]
   prependKitten()
 }
+
+function removeLastKitten(array,index){
+  var lastindexNum = array.length -1
+  kittens.slice(lastindexNum)
+}
+
+function removeFirstKitten(array, index){
+
+}
