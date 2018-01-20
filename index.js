@@ -23,11 +23,11 @@ function destructivelyRemoveFirstKitten(array, index){
 }
 
 function appendKitten(array, element){
-  return[...kittens, "luna"]
+  return[...kittens, "Broom"]
   appendKitten()
 }
 
 function prependKitten(array, element){
-  return["luna",...kittens]
+  return["Arnold",...kittens]
   prependKitten()
 }
