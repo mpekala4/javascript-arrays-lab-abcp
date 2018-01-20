@@ -21,3 +21,8 @@ function destructivelyRemoveFirstKitten(array, index){
   kittens.shift(0)
   return kittens
 }
+
+function appendKitten(array, element){
+  return[...kittens, "luna"]
+  appendKitten()
+}
